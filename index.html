@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppLab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container navbar">
+            <img src="assets/AppLab.png" alt="logo" class="nav-brand">
+            <ul class="navbar-nav" id="navbar-content">
+                <li class="nav-item"><a href="#header" onclick="toggleNav()">Home</a></li>
+                <li class="nav-item"><a href="#features" onclick="toggleNav()">Key Features</a></li>
+                <li class="nav-item"><a href="#pricing" onclick="toggleNav()">Pricing</a></li>
+                <li class="nav-item"><a href="#faq" onclick="toggleNav()">FAQ</a></li>
+                <li class="nav-item"><a href="#try" class="btn btn-primary" onclick="toggleNav()">Try for free</a></li>
+                <button id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </ul>
+            <button id="nav-toggler"><i class="fas fa-bars"></i></button>
+        </nav>
+        <div class="header-content">
+            <div class="header-content-text">
+                <h1 class="header-bigger">
+                    Best app for your modern lifestyle
+                </h1>
+                <p class="text">
+                    Increase productivity with a simple to-do-app for managing your personal budgets
+                </p>
+                <div>
+                    <button class="btn btn-primary">Try for free</button>
+                    <button class="btn btn-secondary">Watch demo video</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bg-img"><img src="assets/layer5.png" alt="img"></div>
+    </header>
+
+    <!-- Trusted By section -->
+    <section class="trusted-by">
+        <p class="text-center text">Trusted by companies like</p>
+        <div class="d-flex companies">
+            <img src="assets/9.png" alt="southwest company" class="comp-img">
+            <img src="assets/anubis.png" alt="anubis company" class="comp-img">
+            <img src="assets/alonzo.png" alt="alonzo company" class="comp-img">
+            <img src="assets/premium.png" alt="premium express" class="comp-img">
+            <img src="assets/maniac.png" alt="mainac" class="comp-img comp-img-last">
+        </div>
+    </section>
+
+    <!-- Awesome apps features -->
+    <section class="app-features container" id="features">
+        <div class="row">
+            <div class="col-6 d-flex flex-end feature-img">
+                <img src="assets/features.png" alt="features">
+            </div>
+            <div class="col-4 col-sm-12">
+                <div>
+                    <h2 class="header">Awesome apps features</h2>
+                    <p class="text">Increase productivity with a simple to-do app. app for
+                        managing your personal budgets.</p>
+                </div>
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="bg-danger rounded">
+                            <img src="assets/speed.png" alt="speed">
+                        </div>
+                        <div>
+                            <p class="text-header danger">Fast Performance</p>
+                            <p>Get your blood tests delivered at
+                                home collect a sample from the
+                                news your blood tests</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="bg-primary rounded">
+                            <img src="assets/prototyping.png" alt="speed">
+                        </div>
+                        <div>
+                            <p class="text-header primary">Prototyping</p>
+                            <p>Get your blood tests delivered at
+                                home collect a sample from the
+                                news your blood tests</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="bg-success rounded">
+                            <img src="assets/vector.png" alt="speed">
+                        </div>
+                        <div>
+                            <p class="text-header success">Vector Editing</p>
+                            <p>Get your blood tests delivered at
+                                home collect a sample from the
+                                news your blood tests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart jackpots -->
+    <section class="smart-jackpots container">
+        <div class="row jackpots-title">
+            <div class="col-6 b-right">
+                <h2 class="header-bigger">Smart jackpots that you may love this anytime & anywhere</h2>
+            </div>
+            <div class="col-6 pl-2">
+                <p class="text">The rise of mobile devices transforms the way we
+                    consume information entirely and the world's most
+                    elevant channels such as Facebook.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="jackpot-item px-5">
+                    <div class="d-flex">
+                        <div class="bg-danger rounded">
+                            <img src="assets/bill.png" alt="bill">
+                        </div>
+                    </div>
+                    <p class="text-header danger">Automatic Payouts</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="jackpot-item px-5">
+                    <div class="d-flex">
+                        <div class="bg-primary rounded">
+                            <img src="assets/network.png" alt="bill">
+                        </div>
+                    </div>
+                    <p class="text-header primary">Network Effect</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="jackpot-item px-5">
+                    <div class="d-flex">
+                        <div class="bg-success rounded">
+                            <img src="assets/badge.png" alt="bill">
+                        </div>
+                    </div>
+                    <p class="text-header success">Bigger Rewards Method</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose -->
+    <section class="why-choose container">
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <h2 class="header text-center">Why you should choose our app</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <p class="text text-center">The rise of mobile devices transforms the way we consume information entirely
+                and the world's most elevant channels such as Facebook.</p></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-danger rounded mx-auto">
+                            <img src="assets/web-design.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">App Development</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-primary rounded mx-auto">
+                            <img src="assets/trophy.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">10 Times Award</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-warn rounded mx-auto">
+                            <img src="assets/computer.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">Cloud Storage</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-success rounded mx-auto">
+                            <img src="assets/customer-support.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">Customization</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>            
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-primary rounded mx-auto">
+                            <img src="assets/ui.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">UX Planning</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>            
+            <div class="col-4">
+                <div class="px-5 text-center">
+                    <div class="d-flex">
+                        <div class="bg-danger rounded mx-auto">
+                            <img src="assets/customer-service.png" alt="app development">
+                        </div>
+                    </div>
+                    <p class="text-header">Customer Support</p>
+                    <p class="text">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing -->
+    <section class="container pricing" id="pricing">
+        <div class="row text-center">
+            <div class="col-8 mx-auto">
+                <h2 class="header">Get awesome features, without extra charges</h2>
+                <p class="text">The rise of mobile devices transforms the way we consume information entirely
+                    and the world's most elevant channels such as Facebook</p>
+                <div class="month mx-auto d-inline-block">
+                    <button class="btn btn-primary">Monthly</button>
+                    <button class="btn btn-disable">Annually</button>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-5 px-2 mx-auto">
+                <div class="card">
+                    <div class="card-top">
+                        <p class="text-header">
+                            <span class="price">$0</span>
+                            <span class="secondary">/ month</span>
+                        </p>
+                        <p class="text-header">Business Class</p>
+                        <p class="secondary">For small teams or office</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-list">
+                            <li>Drag & Drop Builder</li>
+                            <li>1,000's of Templates</li>
+                            <li>Blog Support Tools</li>
+                            <li>eCommerce Store</li>
+                            <li><button class="btn btn-primary">Start free trail</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 px-2 mx-auto">
+                <div class="card">
+                    <div class="card-top">
+                        <p class="text-header">
+                            <span class="price">$99</span>
+                            <span class="secondary">/ month</span>
+                        </p>
+                        <p class="text-header">Business Class</p>
+                        <p class="secondary">For small teams or office</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-list">
+                            <li>Drag & Drop Builder</li>
+                            <li>1,000's of Templates</li>
+                            <li>Blog Support Tools</li>
+                            <li>eCommerce Store</li>
+                            <li><button class="btn btn-primary">Start free trail</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequently asked questions -->
+    <section class="container faq" id="faq">
+        <div class="row">
+            <div class="col-8 mx-auto text-center">
+                <h2 class="header">Frequently asked questions</h2>
+                <p>The rise of mobile devices transforms the way we consume information entirely
+                    and the world's most elevant channels such as Facebook.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <div class="accordion-wrapper">
+                    <div class="accordion-item">
+                        <button class="accordion text-header">How to contact with riders emergency?</button>
+                        <div class="panel">
+                            <p class="text">
+                                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion text-header">App installation failed, how to update system information?</button>
+                        <div class="panel">
+                            <p class="text">
+                                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion text-header">Website response taking time, how to improve?</button>
+                        <div class="panel">
+                            <p class="text">
+                                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion text-header">New update fixed all bug and issues</button>
+                        <div class="panel">
+                            <p class="text">
+                                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion text-header">How to contact with riders emergency?</button>
+                        <div class="panel">
+                            <p class="text">
+                                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Download -->
+    <section class="download container" id="try">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="header-bigger">Download our App now!</h2>
+                <p class="text">The rise of mobile devices transforms the way we consume information entirely
+                    and the world's most elevant channels such as Facebook.</p>
+                <div>
+                    <img src="assets/google-apple.png" alt="google-apple" style="cursor: pointer;" class="download-img">
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="assets/smart.png" alt="download our app">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="row-8 mx-auto text-center">
+                <img src="assets/AppLab.png" alt="logo">
+                <p class="text">Copyright &copy; 2021</p>
+            </div>
+        </div>
+    </footer>
+    <!-- app js -->
+    <script src="js/app.js"></script>
+</body>
+</html>
